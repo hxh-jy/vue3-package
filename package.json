@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "share-content": "^1.0.3",
+    "share-content": "^1.0.4",
     "vue": "^3.2.13",
     "vue-qr": "^4.0.9"
   },
