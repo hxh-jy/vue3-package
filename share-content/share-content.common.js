@@ -2603,21 +2603,9 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
-;// CONCATENATED MODULE: ./src/assets/img/weibo.png
-var weibo_namespaceObject = __webpack_require__.p + "img/weibo.f776237d.png";
-;// CONCATENATED MODULE: ./src/assets/img/qq.png
-var qq_namespaceObject = __webpack_require__.p + "img/qq.4a17f232.png";
-;// CONCATENATED MODULE: ./src/assets/img/qZone.png
-var qZone_namespaceObject = __webpack_require__.p + "img/qZone.b6f627f2.png";
-;// CONCATENATED MODULE: ./src/assets/img/weChat.png
-var weChat_namespaceObject = __webpack_require__.p + "img/weChat.021cb1b7.png";
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/package/share-content.vue?vue&type=template&id=1e320325&scoped=true
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/package/share-content.vue?vue&type=template&id=0cc48797&scoped=true
 
-
-
-
-
-const _withScopeId = n => (_pushScopeId("data-v-1e320325"), n = n(), _popScopeId(), n);
+const _withScopeId = n => (_pushScopeId("data-v-0cc48797"), n = n(), _popScopeId(), n);
 const _hoisted_1 = {
   class: "share-content"
 };
@@ -2627,22 +2615,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.withDirectives)(((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", _hoisted_1, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("img", {
     class: "share",
     onClick: _cache[0] || (_cache[0] = $event => $options.shareToMicroblog()),
-    src: weibo_namespaceObject,
+    src: "https://cdn.ourplay.net/m/src/img/public/weibo.png",
     alt: "微博"
   }), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("img", {
     class: "share",
     onClick: _cache[1] || (_cache[1] = $event => $options.shareToQQ()),
-    src: qq_namespaceObject,
+    src: " https://cdn.ourplay.net/m/src/img/public/qq.png",
     alt: "qq"
   }), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("img", {
     class: "share",
     onClick: _cache[2] || (_cache[2] = $event => $options.shareToQQRom()),
-    src: qZone_namespaceObject,
+    src: "https://cdn.ourplay.net/m/src/img/public/qZone.png",
     alt: "qq空间"
   }), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("img", {
     onClick: _cache[3] || (_cache[3] = (...args) => $options.shareToWechat && $options.shareToWechat(...args)),
     class: "share",
-    src: weChat_namespaceObject,
+    src: "https://cdn.ourplay.net/m/src/img/public/weChat.png",
     alt: "微信"
   }), $data.showQr ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createBlock)(_component_vue_qr, {
     key: 0,
@@ -2652,7 +2640,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     text: $props.info.url
   }, null, 8, ["margin", "size", "text"])) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true)])), [[_directive_click_outside, $options.shareToWechat]]);
 }
-;// CONCATENATED MODULE: ./src/package/share-content.vue?vue&type=template&id=1e320325&scoped=true
+;// CONCATENATED MODULE: ./src/package/share-content.vue?vue&type=template&id=0cc48797&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(7658);
@@ -6813,10 +6801,10 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(vue_qrvue_type_
 });
 ;// CONCATENATED MODULE: ./src/package/share-content.vue?vue&type=script&lang=js
  
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/package/share-content.vue?vue&type=style&index=0&id=1e320325&scoped=true&lang=css
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/package/share-content.vue?vue&type=style&index=0&id=0cc48797&scoped=true&lang=css
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/package/share-content.vue?vue&type=style&index=0&id=1e320325&scoped=true&lang=css
+;// CONCATENATED MODULE: ./src/package/share-content.vue?vue&type=style&index=0&id=0cc48797&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/package/share-content.vue
 
@@ -6826,7 +6814,7 @@ const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(vue_qrvue_type_
 ;
 
 
-const share_content_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(share_contentvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-1e320325"]])
+const share_content_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(share_contentvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-0cc48797"]])
 
 /* harmony default export */ var share_content = (share_content_exports_);
 ;// CONCATENATED MODULE: ./src/package/index.js

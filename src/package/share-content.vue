@@ -6,20 +6,20 @@
         <img 
         class="share"
         @click="shareToMicroblog()"
-        src="../assets/img/weibo.png" 
+        src="https://cdn.ourplay.net/m/src/img/public/weibo.png" 
         alt="微博">
         <!-- 分享到qq -->
         <img 
         class="share"
         @click="shareToQQ()"
-        src="../assets/img/qq.png" 
+        src=" https://cdn.ourplay.net/m/src/img/public/qq.png" 
         alt="qq">
 
         <!-- 分享到qq空间 -->
         <img 
         class="share"
         @click="shareToQQRom()"
-        src="../assets/img/qZone.png" 
+        src="https://cdn.ourplay.net/m/src/img/public/qZone.png" 
         alt="qq空间">
         
         
@@ -27,7 +27,7 @@
         <img 
         @click="shareToWechat"
         class="share"
-        src="../assets/img/weChat.png" 
+        src="https://cdn.ourplay.net/m/src/img/public/weChat.png" 
         alt="微信">
         
         <vue-qr 
